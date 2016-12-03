@@ -1,0 +1,645 @@
+@charset "UTF-8";
+body{
+	width:980px;
+	margin:0 auto;
+}
+#header{
+	height:115px;
+	/*margin:0 auto;*/
+	margin:0; padding:0; 
+	background-color:#FFF; 
+	background-image:url(../img/WrapperHeader.png); 
+	background-repeat:repeat-x;
+}
+#content{
+	height:1110px;
+	background-color:white;
+	margin:0 auto;
+	font-size:11px; 
+	text-align:center;
+}
+#footer{
+	height:285px;
+	background-color:#333;
+	margin:0 auto;
+}
+p, h3{
+	margin:0;
+	padding:0;
+}
+/*********************
+USO GENERAL
+**********************/
+.arriba{ vertical-align:top; }
+.rojo{ color:red; }
+.gris{ color:gray; }
+.blanco{ color:white; }
+.der{ text-align:right; }
+.centrado{ text-align:center; }
+.negritas{ font-weight:bold; }
+.enalceRojo{ color:red; text-decoration:none; font-size:0.8em;}
+.pegaDerecha{float:right;}
+#clearFix{clear:both; }
+.quitaRayita{ text-decoration:none; }
+.encabezado{ background:red; color:white; }
+.botonRojo{ background:red; color:white; padding:5px; border:none; cursor:pointer;}
+/* menu login */
+.headerLogin {height:20px; margin:0 80px 0 0; padding:0; text-align:right; text-transform: uppercase; font-size:11px; }		
+.headerLogin .menu{margin:0; padding 0; list-style-type: none;}	
+.headerLogin .menu li {display: inline;}
+.headerLogin .menu li a {padding-left:10px; padding-right:10px; line-height: 20px; border-left:solid 1px #999; color:#999; text-decoration: none; }
+.headerLogin .menu li a:hover {}
+/* End Header 01 */
+
+/* logos */
+.headerLogos{width:100%; height:45px;	margin:0; padding:0; float:left;} 
+.banorte{width:183px; height:45px; margin:0 0 0 15px; float: left; background-image:url(../img/Company01.png); background-repeat:no-repeat;}
+.ixe{width:72px; height:45px; background-image:url(../img/Company02.png); background-repeat:no-repeat; margin:0 0 0 15px; float: left; }
+.venta{height:11px; margin-left:20px; padding:17px 0px; color:#999;  text-transform: uppercase; font-size:8px;  font-weight:bold;  float: left;}
+.bolsa {width:150px; height:45px; margin:0px; float:right; line-height:45px; font-size:12px; vertical-align:middle; text-align:center; font-weight:bold; color:#333333;}
+.bag {width:130px; height:45px; margin:0 15px 0 0 ; color:#FFF; font-weight:bold; float:right; background-image:url(../img/Bag.png); background-repeat:no-repeat;}
+.telcel {width: 130px; height:35px; margin:5px 0px 5px 5px; float:right;background-image:url(../img/LogoTelcel.png); background-repeat:no-repeat; }
+/* End Header 02 */
+
+/* menuAccesorios */
+.headerMenu {width: 100%; height: 50px; margin:0px; padding:0px; float: left;  font-size:12px;  text-align:left;}	
+.headerMenu .menu { width:600px; height: 50px; list-style-type: none; padding:0px; margin: 0px; float: left; font-weight:bold;}	
+.headerMenu .menu li {display: inline;}
+.headerMenu .menu li a {line-height: 50px; margin-right:40px; text-decoration: none; float:left; color:#999;}
+.headerMenu .menu li a:hover {}
+
+.headerMenu .search {width: 300px; height:30px; float: left; margin:10px 40px; padding:0px; background-color:#FFF;}
+.headerMenu .search .text {width: 250px; height:20px; margin:5px 10px; float: left;  line-height: 20px; vertical-align:middle; font-size:13px;}
+.headerMenu .search .button {width: 30px; height:30px; margin:0px; float: left; padding:0; background-image:url(../img/search.png);}
+/* End Header 03 */
+
+/*** BANNER FOTO ***/
+.banner { width: 960px; height:300px; margin:10px 10px 0 10px; padding:0; float: left;}
+
+/*** CARRUSEL ***/
+.carrusel { width: 960px; height:60px; margin:0px 10px; padding:0px; float: left; background-color:#CCCCCC;   }
+.brand{width:60px; height:60px; padding:0px; margin:0px;  float: left; }
+
+/*** EQUIPOS ***/
+#content-tabs{width: 980px; margin:0px; padding:0px; padding-top:15px;
+padding-left:8px;}
+
+#tab-container1, #tab-container2{
+	margin-left:10px;
+}
+
+/* Start Footer */
+.piePaginaMenu { width: 980px; height:170px; margin:0px; padding:0px; float: left; }	
+.piePaginaMenu .column { width: 196px; height:170px; margin:0px; padding:0px; float: left;}
+.piePaginaMenu .columnTitle { width: 188px; margin-top:8px; margin-bottom:8px; margin-right:8px; height:14px; line-height: 14px;  padding:0px; color:#999;   }
+.piePaginaMenu .menu {list-style-type: none; padding: 0; margin: 0; }	
+.piePaginaMenu .menu li {display:block;}
+.piePaginaMenu .menu li a { width: 196px; line-height: 28px; text-decoration: none; float:left; color:#999; }
+.piePaginaMenu .menu li img { float:left; }
+.piePaginaMenu .menu  li a:hover {}
+
+.face{
+	width: 196px; line-height: 28px; float:left; margin:0 10px;
+}
+.face a{
+text-decoration: none; float:left; color:#999;	
+}
+.face a img{
+	margin:0 10px;	
+}
+.column .search {width: 180px; height:30px; float: left; margin:10px 10px; padding:0px; background-color:#FFF;}
+.column .search .text {width: 130px; height:20px; margin:5px 10px; float: left;  line-height: 20px; vertical-align:middle; font-size:13px;}
+.column .search .button {width: 30px; height:30px; margin:0px; float: left; padding:0; background-image:url(../img/search.png);}
+/*** Footer 02 ***/
+.piePaginaBusca { width: 980px; height:85px; margin:0px; padding:0px; float: left; }	
+.piePaginaBusca p{color:#999;margin:10px 0 0 0; padding:0px;}
+
+.piePaginaBusca .search {width: 330px; height:30px; float: left; margin:0px 10px; padding:0px; background-color:#FFF;}
+.piePaginaBusca .search .text {width: 130px; height:20px; margin:5px 10px; float: left;  line-height: 20px; vertical-align:middle; font-size:13px;}
+.piePaginaBusca .search .button {width: 100px; height:30px; margin:0px; float: right;  line-height: 20px; vertical-align:middle; font-size:13px; background-color:#FF6600;}
+.tarjetas{float:right; margin:20px 0  0 0;}
+/* End Footer */
+
+
+/* Start Carousel */
+.list_carousel {width: 960px;}
+.list_carousel li {text-align: center; width: 60px; height: 60px; padding: 0; margin:0px; display: block;float: left;}
+.list_carousel.responsive {	width: auto;margin-left: 0; }
+.clearfix {	float:none;clear: both;}
+.prev {float: left; margin-left: 10px;}
+.next {float: right;margin-right: 10px;}
+.pager {float: left; width: 900px;	text-align: center;	}
+.pager a {	margin: 0 5px; text-decoration: none;}
+.pager a.selected {text-decoration: underline;}
+.timer {background-color: #999;	height: 6px; width: 0px;}
+/* End Carousel */
+/*******************
+PRODUCTO DESCRIPCION (pd)
+********************/
+#pd-content{
+	height:1164px;
+}
+/*** CAJAS ***/
+#pd-columnaIzq{
+	width:400px;
+	margin:0px;
+	height:800px;
+	background:#FFFF99;
+	border-right:1px solid #000;
+	float:left;
+}
+#pd-columnaCen{
+	width:400px;
+	margin:0px;
+	height:800px;
+	background:#FFFF99;
+	float:left;
+}
+#pd-columnaDer{
+	width:178px;
+	margin:0px;
+	height:800px;
+	background:#FFFF99;
+	border-left:1px solid #000;
+	float:left;
+}
+/* Caja izquierda */
+#pd-migas{
+	width:100%;
+	margin:0px;
+	height:20px;
+	background:#999;
+}
+/* Info tiene cuatro cajas: pd-cajas, pd-fotos, pd-marcas, pd-descripcion */
+#pd-info{
+	width:100%;
+	margin:0px;
+	height:480px;
+	background:#666;
+}
+/* Cajas contienen los cuadros con información*/
+#pd-cajas{
+	width:180px;
+	margin:0px;
+	height:440px;
+	background:#FF9900;
+	float:left;
+}
+/* contiene la fotro del producto */
+#pd-fotos{
+	width:220px;
+	margin:0px;
+	height:440px;
+	background:#FFCC33;
+	float:left;
+}
+/* Son unas marcas misteriosas */
+#pd-marcas{
+	clear:both;
+	width:100%;
+	margin:0px;
+	height:40px;
+	background:#FF6633;
+}
+/* Descripción del producto */
+#pd-descripcion{
+	width:100%;
+	margin:0px;
+	height:300px;
+	background:#999;
+}
+/* Van dentro de caja y contienen información */
+#pd-paquetes{
+	width:160px;
+	margin:10px;
+	height:160px;
+	background:#fff;
+}
+#pd-otrasMarcas{
+	width:160px;
+	margin:10px;
+	height:200px;
+	background:#fff;
+}
+#pd-gastos{
+	width:160px;
+	margin:10px;
+	height:40px;
+	background:#fff;
+}
+
+/* Columna central */
+#pd-encabezado{
+	width:100%;
+	margin:0px;
+	height:100px;
+	background:#66FFFF
+}
+#pd-producto{
+	width:100%;
+	margin:0px;
+	height:700px;
+	background:#00FF66;
+}
+
+/* Columna izquierda */
+#pd-accesorios{
+	width:100%;
+	margin:0px;
+	height:40px;
+	background:#999;
+}
+.pd-accesorio{
+	width:140px;
+	height:160px;
+	background:white;
+	margin:20px;
+}
+/******************* 
+Detalle de compra (dc)
+********************/
+#dc-wrapper{
+	width:680px;
+	margin:0 auto;
+}
+#dc-header{
+	width:100%;
+	height:80px;
+	background:#FF9966;	
+}
+#dc-products{
+	width:640px;
+	height:360px;
+	background:#FF9966;
+	padding:20px;
+}
+#dc-share{
+	width:100%;
+	height:60px;
+	background:white;
+}
+/*** Segundo nivel ***/
+#dc-logo{
+	width:260px;
+	height:80px;
+	background:#999;
+	float:left;
+}
+#dc-resume{
+	width:260px;
+	height:80px;
+	background:#666;
+	float:left;
+}
+#dc-buttons{
+	width:160px;
+	height:80px;
+	background:#999;
+	float:left;
+}
+#dc-detalle{
+	width:640px;
+	height:360px;
+	background:#99CCFF;
+}
+.dc-texto{
+	margin:3px 0 0 50px;
+	padding:0;
+}
+.dc-desc{
+	margin:3px 0 0 3px;
+	padding:0;
+}
+.dc-cant{
+	text-align:right;
+}
+.dc-select{
+	text-align:center;
+	margin-left:30px;
+}
+/****************************
+PAGO TARJETA DE CREDITO (tdc)
+*****************************/
+#tdc-content{
+	height:960px;
+}
+/*** CAJAS ***/
+#tdc-izquierda{
+	width:730px;
+	height:960px;
+	float:left;
+	background:white;
+}
+#tdc-derecha{
+	width:250px;
+	height:945px;
+	float:left;
+	background:#ccc;
+	margin-top:15px;
+}
+/*** Primera columna ***/
+#tdc-formulario{
+	width:660px;
+	height:450px;
+	background:white;
+	margin:20px 40px 0 40px;
+}
+#tdc-pago{
+	width:620px;
+	height:300px;
+	background:#e2e3dd;
+	margin:0px 40px;
+	padding:0px 20px;
+}
+#tdc-continua{
+	width:640px;
+	height:120px;
+	background:white;
+	margin:0px 40px;
+	text-align:center;
+}
+#tdc-titulo{
+	width:100%;
+	height:25px;
+	margin:0px;
+	background:#333;
+	padding-top:3px;
+}
+#tdc-detalle{
+	width:220px;
+	height:400px;
+	margin:15px;
+	background:white;
+}
+#tdc-volver{
+	width:100%;
+	height:40px;
+	margin:0px;
+}
+.tdc-texto{
+	margin:5px;
+}
+.tdc-izq{ margin-left:14px; }
+/*********************
+PAGINA GENERICA
+**********************/
+#pg-content{
+	height:960px;
+	background-color:#666;	
+	margin:0;
+	padding:0;
+}
+/*********************
+BUSCADOR TIENDA
+**********************/
+#bt-content{
+	width:100%;
+	height:960px;
+	background:white;
+}
+#bt-izquierda{
+	width:250px;
+	float:left;
+	margin-left:30px;
+	margin-top:30px;
+}
+#bt-centro{
+	width:250px;
+	float:left;
+	margin-top:30px;
+}
+#bt-derecha{
+	width:428px;
+	float:left;
+	margin-top:30px;
+}
+#bt-izquierda a{
+	color:red; text-decoration:none;
+}
+/*********************
+MI CUENTA
+**********************/
+#mc-content{
+	width:100%;
+	height:960px;
+	background:white;
+}
+#mc-izquierda{
+	width:250px;
+	float:left;
+	margin-left:30px;
+	margin-top:30px;
+}
+#mc-derecha{
+	width:628px;
+	float:left;
+	margin-top:30px;
+}
+#mc-izquierda a{
+	color:red; text-decoration:none;
+}
+#mc-pedidos, #mc-pago, #mc-datos{
+	width:280px;
+	height:80px;
+	float:left;
+	margin-right:30px;
+	margin-top:15px;
+	margin-bottom:15px;
+	background-color:white;
+}
+.mc-foto{
+	float:left;
+	margin-right:20px;
+}
+/*********************
+RESULTADO DE BUSQUEDA
+**********************/
+#rb-content{
+	width:100%;
+	height:960px;
+	background:white;
+}
+#rb-izquierda{
+	width:250px;
+	float:left;
+	margin-left:30px;
+	margin-top:30px;
+}
+#rb-derecha{
+	width:628px;
+	float:left;
+	margin-top:30px;
+}
+#rb-izquierda a{
+	color:red; text-decoration:none;
+}
+#rb-pedidos, #rb-pago, #rb-datos{
+	width:280px;
+	height:80px;
+	float:left;
+	margin-right:30px;
+	margin-top:15px;
+	margin-bottom:15px;
+	background-color:white;
+}
+.rb-foto{
+	float:left;
+	margin-right:20px;
+}
+.rb-producto{
+	width:150px;
+	margin:15px;
+	float:left;
+}
+#rb-resultado{
+	width:100%;
+	height:30px;
+	background-color:#ccc;
+	padding-top:10px;
+}
+#rb-mostrando{ width:300px; float:left; padding-left:10px;}
+#rb-ordenar{ width:190px; float:right;  }
+/*******************
+COLOCA PEDIDO ENVIO (cpe)
+********************/
+#cpe-content{
+	height:960px;
+}
+/*** CAJAS ***/
+#cpe-izquierda{
+	width:730px;
+	height:960px;
+	float:left;
+	background:white;
+}
+#cpe-formulario{
+	width:550px;
+	float:left;
+}
+#cpe-resumen{
+	width:180px;
+	float:right;
+}
+#cpe-resumen h3{
+	margin:15px 0;
+}
+/*******************
+COLOCA PEDIDO ENVIO (cpe)
+********************/
+#cpr-content{
+	height:960px;
+}
+/*** CAJAS ***/
+#cpr-izquierda{
+	width:730px;
+	height:960px;
+	float:left;
+	background:white;
+}
+#cpr-formulario{
+	width:530px;
+	float:left;
+}
+#cpr-resumen{
+	width:180px;
+	float:right;
+}
+#cpr-resumen h3{
+	margin:15px 0;
+}
+/***********************
+COLOCA PEDIDO PAGO (cpp)
+************************/
+#cpp-content{
+	height:960px;
+}
+/*** CAJAS ***/
+#cpp-izquierda{
+	width:730px;
+	height:960px;
+	float:left;
+	background:white;
+}
+#cpp-formulario{
+	width:530px;
+	float:left;
+}
+#cpp-resumen{
+	width:180px;
+	float:right;
+}
+#cpp-resumen h3{
+	margin:15px 0;
+}
+.formaPago{
+	width:160px;
+	float:left;
+	margin:8px;
+}
+/***********************
+LOGIN (lo)
+************************/
+#lo-content{
+	height:960px;
+}
+/*** CAJAS ***/
+#lo-caja{
+	width:600px;
+	margin:40px auto;
+	background:white;
+}
+#lo-titulo{
+	background:gray;
+}
+/***********************
+COMENTARIO (co)
+************************/
+#co-content{
+	height:960px;
+}
+/*** CAJAS ***/
+#co-caja{
+	width:600px;
+	margin:40px auto;
+	background:white;
+}
+#co-titulo{
+	background:gray;
+}
+/***********************
+PROMOCIONES (po)
+************************/
+#po-content{
+	width:100%;
+	height:960px;
+}
+/*** CAJAS ***/
+#po-izquierda{
+	width:150px;
+	float:left;
+	margin:40px 0;
+}
+#po-derecha{
+	width:780px;
+	margin:20px 20px;
+	background:white;
+	float:right;
+}
+#po-titulo{
+	background:red;
+	text-align:right;
+	color:white;
+}
+#po-mostrar{
+	background:#CCC;
+	color:black;
+}
+#po-promociones{ margin-left:20px;}
+.po-promocion{ width:160px; height:180px; margin-right:30px; float:left;}
+.po-foto{ width:160px; height:100px;}
+.po-texto{ width:160px; height:80px;}
+#po-mostrar-num{ float:left; }
+#po-mostrar-ordenar{ float:right; }
+
+
+
